@@ -2,14 +2,15 @@
 
 // grab DOM elements
 
-const showButton = document.getElementById('circlething');
-const animal = document.getElementById('animalDiv');
-
+const showButton = document.querySelector('#circlething');
+const animal = document.querySelector('.animalDiv');
+const animalPic = document.querySelector('.animalPic');
 // set event listeners 
 
-showButton.addEventListener('click') () => {
-    animal.classList.remove('hidden');
-}
+showButton.addEventListener('click', () => {
+    animal.classList.toggle('hidden');
+    animalPic.classList.toggle('hidden');
+});
 
 console.log(showButton, animal, 'validate grabbed')
 
