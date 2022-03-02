@@ -19,6 +19,7 @@ Template includes header, body, main, footer in html.
 - Add button into section and hidden div to reveal animal once button is clicked.
 - Style hidden class
 - Add event listener for click button in app.js
+![wireframe](/assets/wireframe.jpg)
 
 Additional considerations:
 
