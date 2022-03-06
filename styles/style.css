@@ -86,3 +86,17 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
+
+.hidden {
+    display:none;
+}
+
+#country {
+    text-align: left;
+    border: 5px red;
+}
+
+h3 {
+    color: red;
+    background-color:bisque;
+}
